@@ -1,0 +1,50 @@
+.book-detail {
+  max-width: 800px; 
+  margin: 40px auto; 
+  padding: 20px; 
+  border: 1px solid #ddd; 
+  border-radius: 10px; 
+  background-color: #fff; 
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+.book-detail img {
+  max-width: 25%; 
+  height: auto; 
+  border-radius: 5px; 
+  margin-bottom: 20px;
+}
+
+.book-detail h2 {
+  font-size: 32px; 
+  color: #333; 
+  margin-bottom: 20px; 
+  text-align: center; 
+}
+
+.book-detail p {
+  font-size: 18px; 
+  color: #555; 
+  line-height: 1.6; 
+  margin-bottom: 15px; 
+}
+
+.book-detail p strong {
+  font-weight: bold; 
+  color: #000; 
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .book-detail {
+    padding: 15px; 
+  }
+
+  .book-detail h2 {
+    font-size: 28px; 
+  }
+
+  .book-detail p {
+    font-size: 16px; 
+  }
+}

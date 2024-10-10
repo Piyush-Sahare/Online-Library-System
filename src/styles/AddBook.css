@@ -1,0 +1,33 @@
+.add-book-form {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+form input, form textarea {
+  width: 50%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+form button {
+  padding: 10px;
+  background-color: #46f8f8;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  display: block; 
+  margin: 0 auto;
+}
+
+form button:hover {
+  background-color: #0fe2e2;
+}

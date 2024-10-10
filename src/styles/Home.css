@@ -1,0 +1,43 @@
+
+.home-book-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .home-book-list div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    
+  }
+
+  .home-book img{
+    width:100px;
+    height: 150px;
+  }
+
+
+  .Link{
+    border-radius: 10px;
+    padding: 8px;
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(47, 0, 255);
+    /* background-color: aqua; */
+  }
+  h3{
+    text-align: left;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+  }
+  
+  li {
+    margin: 10px;
+    font-style: italic;
+    
+  }
