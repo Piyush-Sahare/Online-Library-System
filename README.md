@@ -26,4 +26,6 @@ Make sure you have the following installed:
 
    cd Online-Library-System
 
+   npm install
+   
    npm run dev
